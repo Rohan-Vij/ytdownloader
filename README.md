@@ -2,7 +2,7 @@
 Some simple Python programs using the pytube package to download videos.
 
 ###
-The only module require so far is pytube:
+The only module required so far is pytube:
 `pip install pytube`
 or
 `pip3 install pytube`
