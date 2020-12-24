@@ -12,7 +12,7 @@ video_object = YouTube(url)
 # We can also download the audio and video separately by viewing the DASH streams (and therefore get 1080p)
 # To do this, replace progressive with adapative:
 # available_streams = video_object.streams.filter(adapative=True)
-# However, we will have to later combine the video and audio streams using post-processing
+# However, we will have to later combine the video and audio streams using post-processing packages
 available_streams = video_object.streams.filter(progressive=True).order_by('resolution').desc()
 
 # Getting the highest quality stream
