@@ -20,7 +20,7 @@ highest_quality = available_streams.first()
 
 print("Highest quality progressive stream found:", highest_quality)
 
-# Changing current program directory to the downloaded directory
+# Changing current program directory to the "downloaded" directory
 os.chdir("downloaded")
 
 # Downloading video
