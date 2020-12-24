@@ -24,7 +24,7 @@ print("Highest quality progressive stream found:", highest_quality)
 os.chdir("downloaded")
 
 # Downloading video
-print("Downloading...", end="")
+print("Downloading... ", end="")
 highest_quality.download()
 print("Done!")
 
